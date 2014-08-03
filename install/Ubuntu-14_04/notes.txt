@@ -1,0 +1,7 @@
+Tmp notes --
+
+sed -i 's/ServerTokens Maj/ServerTokens Major/' /etc/zpanel/configs/apache/httpd.conf
+# fix one
+
+sed -i 's/Options FollowSymLinks/Options +FollowSymLinks/' /etc/zpanel/configs/apache/httpd-vhosts.conf
+# fix two
